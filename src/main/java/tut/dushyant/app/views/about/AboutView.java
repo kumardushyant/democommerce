@@ -17,7 +17,7 @@ public class AboutView extends VerticalLayout {
     public AboutView() {
         setSpacing(false);
 
-        Image img = new Image("images/empty-plant.png", "placeholder plant");
+        Image img = new Image("images/earth.png", "Planet Earth");
         img.setWidth("200px");
         add(img);
 

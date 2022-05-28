@@ -1,0 +1,18 @@
+server:
+  port: ${PORT:8180}
+logging:
+  level:
+    org.atmosphere: warn
+spring:
+  mustache:
+    check-template-location: false
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: admin
+    password: admin123
+    jpa:
+      hibernate:
+        ddl-auto: update
+vaadin:
+  launch-browser: true
+  whitelisted-packages: com.vaadin,org.vaadin,dev.hilla,tut.dushyant.app
